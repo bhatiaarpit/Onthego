@@ -1,10 +1,10 @@
-This project is a responsive travel website built with HTML, CSS, JavaScript, PHP, and MySQL. The website features various sections including Home, Book, Packages, Services, Gallery, Reviews, and Contact. It utilizes external libraries such as Font Awesome for icons and Swiper.js for creating responsive sliders.
+T![Screenshot 2023-12-18 000131](https://github.com/bhatiaarpit/Onthego/assets/118626392/8c33dc72-c35b-4a90-a759-dc612d86e5b4)
+his project is a responsive travel website built with HTML, CSS, JavaScript, PHP, and MySQL. The website features various sections including Home, Book, Packages, Services, Gallery, Reviews, and Contact. It utilizes external libraries such as Font Awesome for icons and Swiper.js for creating responsive sliders.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
 - [Database Setup](#database-setup)
 - [Contributing](#contributing)
