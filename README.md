@@ -97,6 +97,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Check out the live demo of the website [here](https://onthegotravel.netlify.app/).
 
----
-
-Feel free to customize this README file further to fit your specific project requirements!
