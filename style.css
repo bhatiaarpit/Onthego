@@ -153,7 +153,8 @@ header .search-bar-container label:hover{
 } 
 
 body{
-    height: 200rem;
+    height: auto !important;
+    overflow-x: hidden;
 }
 
 
@@ -325,7 +326,7 @@ text-decoration: underline;
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
@@ -334,7 +335,10 @@ text-decoration: underline;
     flex: 1 1 20rem;
 }
 .book .row .image img{
-    width: 60rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
 }
 .book .row form{
     flex: 1 1 40rem;
@@ -554,8 +558,10 @@ text-decoration: underline;
 }
 
 .contact .row .image img{
-    width: 50rem;
-    margin-right: 7rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
 }
 
 .contact .row form{
@@ -592,9 +598,10 @@ text-decoration: underline;
     text-align: center;
 }
 .brand-container img{
-    width: 70%;
-    margin: 3rem;
-    
+    width: 100%;
+    max-width: 200px;
+    margin: 2rem auto;
+    display: inline-block;
 }
 
 .footer{
@@ -650,44 +657,40 @@ text-decoration: underline;
     color: var(--orange);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    height: 300rem;
+/* Make all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
+/* Remove unnecessary body height */
+body {
+    height: auto !important;
+    overflow-x: hidden;
+}
+
+/* Responsive fixes for specific sections */
+.book .row .image img,
+.contact .row .image img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.brand-container img {
+    width: 100%;
+    max-width: 200px;
+    margin: 2rem auto;
+    display: inline-block;
+}
+
+/* Prevent horizontal scroll on all sections */
+section, .box-container, .row {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 
 /* Media Queries */
 
